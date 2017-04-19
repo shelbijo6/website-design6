@@ -1,5 +1,9 @@
 * {
   font-family: 'Raleway', sans-serif;
+  background: url('../img/wood.jpeg');
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -8,19 +12,18 @@ h1 {
   font-family: 'Bree Serif', serif;
 }
 
-div {
+p {
   text-align: center;
-  color: #68c3b8;
-  line-height: 10px;
+  color: #68c3b9;
   font-weight: bold;
 }
 
-p {
+div {
   text-align: center;
   line-height: 110px;
   color: grey;
 }
 
-.buttons {
+.wrapper {
   text-align: center;
 }
