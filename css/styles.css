@@ -33,6 +33,7 @@ div, .looking {
 .buttons {
   text-align: center;
   line-height: 40px;
+  padding: 10px;
 }
 
 input {
@@ -45,4 +46,9 @@ input {
 input:hover {
   color: #3AA5B0;
   border-color: #3AA5B0;
+}
+
+footer {
+  text-align: center;
+  color: #000;
 }
