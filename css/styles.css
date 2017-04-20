@@ -6,6 +6,11 @@
   background-size: cover;
 }
 
+section {
+  line-height: 0px;
+  padding: 50px;
+}
+
 h1 {
   font-size: 110px;
   text-align: center;
@@ -14,16 +19,30 @@ h1 {
 
 p {
   text-align: center;
-  color: #68c3b9;
+  color: #3AA5B0;
   font-weight: bold;
+  letter-spacing: 1.9px;
 }
 
-div {
+div, .looking {
   text-align: center;
   line-height: 110px;
-  color: grey;
+  color: #000;
 }
 
-.wrapper {
+.buttons {
   text-align: center;
+  line-height: 40px;
+}
+
+input {
+  border-color: #000;
+  height: 65px;
+  width: 200px;
+  font-size: 15px;
+}
+
+input:hover {
+  color: #3AA5B0;
+  border-color: #3AA5B0;
 }
